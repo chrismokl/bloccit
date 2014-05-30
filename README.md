@@ -1,4 +1,4 @@
-## Bloccit: a reddit clone to teach fundamentals of web dev and rails 4
+## Bloccit: a reddit clone to teach fundamentals of web dev and rails  4
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
