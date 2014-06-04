@@ -49,3 +49,8 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+# Devise
+gem 'devise'
+
+# Figaro
+gem 'figaro'
