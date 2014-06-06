@@ -54,3 +54,6 @@ gem 'devise'
 
 # Figaro
 gem 'figaro'
+
+# Pundit
+gem 'pundit'
