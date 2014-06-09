@@ -57,3 +57,6 @@ gem 'figaro'
 
 # Pundit
 gem 'pundit'
+
+# Redcarpet
+gem 'redcarpet'
