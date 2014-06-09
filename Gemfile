@@ -60,3 +60,12 @@ gem 'pundit'
 
 # Redcarpet
 gem 'redcarpet'
+
+# Carrierwave
+gem 'carrierwave'
+
+# Mini Magick
+gem 'mini_magick'
+
+# Fog
+gem 'fog'
