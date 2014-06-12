@@ -35,39 +35,41 @@ posts = Post.all
 # Create comments
 100.times do
   Comment.create(
+    user: users.sample,
     post: posts.sample,
     body: Faker::Lorem.paragraph
   )
 end
+comments = Comment.all
 
 # Create an admin user
 admin = User.new(
   name: 'Admin User',
   email: 'cmo871@gmail.com',
-  password: 'hello',
+  password: 'hellohello',
   role: 'admin'
 )
 admin.skip_confirmation!
-admin.save
+admin.save!
 
 # Create a moderator
 moderator = User.new(
   name: 'Moderator User',
   email: 'mod@example.com',
-  password: 'hello',
+  password: 'hellohello',
   role: 'moderator'
 )
 moderator.skip_confirmation!
-moderator.save
+moderator.save!
 
 # Create a member
 member = User.new(
   name: 'Member User',
   email: 'member@member.com',
-  password: 'hello'
+  password: 'hellohello'
 )
 member.skip_confirmation!
-member.save
+member.save!
 
 puts "Seed finished"
 puts "#{User.count} users created"
