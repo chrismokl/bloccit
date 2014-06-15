@@ -1,0 +1,16 @@
+<h1>Create a New Post</h1>
+
+<div class="row">
+  <div class="col-md-4">
+    <p>Guidelines for posts</p>
+    <ul>
+      <li>Do this</li>
+      <li>Do that</li>
+      <li>Do this and that</li>
+    </ul>
+  </div>
+
+  <div class="col-md-8">
+    <%= render partial: 'form', locals: { topic: @topic, post: @post } %>
+  </div>
+</div>
